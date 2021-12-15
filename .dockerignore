@@ -1,0 +1,7 @@
+.vscode
+
+Dockerfile
+docker-compose.yml
+fuzzycheck
+
+*.md
