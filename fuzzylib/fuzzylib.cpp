@@ -90,7 +90,7 @@ Engine* TLEngine::create()
     rules->setDescription("");
     rules->setEnabled(true);
 
-    /* ------------------- Inserting rules ----------------- */
+    /* ------------------- Inserting rules ------------------- */
     rules->setConjunction(new Minimum);
     rules->setDisjunction(new Maximum);
     rules->setImplication(new Minimum);

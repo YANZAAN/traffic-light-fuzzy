@@ -4,10 +4,10 @@ using namespace fuzzylib;
 
 int main(int argc, char **argv)
 {
-    // /* Creating engine */
+    /* ------ Creating engine ------ */
     Engine* engine = TLEngine::create();
 
-    // /* Testing engine */
+    /* ------ Testing engine ------ */
     TLEngine::test(engine, 10);
 
     delete engine;

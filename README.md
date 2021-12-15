@@ -1,14 +1,21 @@
-# Traffic Lights Controller implementation example with C++ and fuzzylite®
+# Traffic Light Controller implementation example with C++ and fuzzylite®
+In 1965, the American mathematician Lotfi Zade put the fuzzy sets theory to scientific community. It formed the basis of the corresponding logic
+
+Initially this paradigm was perceived coldly due to differences with Aristotelian logic. However, in the future it'll stand like a basis for many other specified embedded systems
+  
+This is an automated traffic control system based on fuzzy logic principle (so called fuzzy interference system - FIS)
 
 ## Parameters
+### Input linguistic variables (strict: <$\beta$, T, X>)
+1. <Count ratio, (low, medium, high), 0..100%>
+2. <Intensity ratio, (low, medium, high), 0..100%>
 
-### Input
-1. Count ratio
-2. Intensity ratio
+### Output linguistic variables (strict: <$\beta$, T, X>)
+1. <Red signal time, (low, medium, high), 20..90s>
+2. <Green signal time, (low, medium, high), 20..90s>
 
-### Output
-1. Red signal time
-2. Green signal time
+## Usage and restrictions
+Made with educational purpose. Free to use, modify etc.
 
 ## Run
 Run ``make && ./fuzzycheck`` (needs ``g++5``, ``make``)
@@ -18,6 +25,9 @@ Run ``docker build -t yanzaan/tfcontroltest . & docker run it yanzaan/tfcontrolt
 
 ### ...with Docker-Compose:
 Run ``docker-compose up --build``
+
+## Further research
+1. Trying different accessory functions and combinations (gussians, bells, triangles etc.)
 
 ## Used / Attributions / Licenses
 
