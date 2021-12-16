@@ -6,11 +6,11 @@ Initially this paradigm was perceived coldly due to differences with Aristotelia
 This is an automated traffic control system based on fuzzy logic principle (so called fuzzy interference system - FIS)
 
 ## Parameters
-### Input linguistic variables (strict: <$\beta$, T, X>)
+### Input linguistic variables (strict: <β, T, X>)
 1. <Count ratio, (low, medium, high), 0..100%>
 2. <Intensity ratio, (low, medium, high), 0..100%>
 
-### Output linguistic variables (strict: <$\beta$, T, X>)
+### Output linguistic variables (strict: <β, T, X>)
 1. <Red signal time, (low, medium, high), 20..90s>
 2. <Green signal time, (low, medium, high), 20..90s>
 
